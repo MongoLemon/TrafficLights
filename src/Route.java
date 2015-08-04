@@ -44,7 +44,7 @@ public class Route {
             @Override
             public void run() {
                 if (motos.size() > 0) {
-                    boolean GisOn = Lamp.valueOf(Route.this.name).isLighted();
+                    boolean GisOn = Light.valueOf(Route.this.name).isLighted();
                     if (GisOn) {
                         System.out.println(motos.remove(0) + " is passing the intersection ！");
                     }
