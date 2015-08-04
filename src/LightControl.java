@@ -27,4 +27,8 @@ public class LightControl {
             }
         }, 10, 10, TimeUnit.SECONDS);
     }
+
+    public LightControl getInstance() {
+        return controlSystem;
+    }
 }
