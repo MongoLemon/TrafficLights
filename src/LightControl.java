@@ -11,7 +11,7 @@ public class LightControl {
 
     private LightControl controlSystem = new LightControl();
 
-    private LightControl() {
+    protected LightControl() {
 
         // initial light
         currentLight = Light.S2N;
